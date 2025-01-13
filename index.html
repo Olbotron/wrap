@@ -4,41 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <script src="https://kit.fontawesome.com/369330feb7.js" crossorigin="anonymous"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+        <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-bars"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bars"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
+        <h1>Wellness Recovery Action Plan</h1>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="signs.html">Signs</a></li>
+                <li><a href="mindfulness.html">Mindfulness</a></li>
+                <li><a href="calm.html">C.A.L.M.</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="container">
+    
+    <!-- Main content -->
+    <main class="container hero">
         <h1>Welcome to the Wellness Recovery Action Plan</h1>
         <p>This is a simple home page using Bootstrap.</p>
     </main>
     <footer class="text-center mt-4">
         <p>&copy; 2025 Ol Hughes</p>
     </footer>
-    <script src="https://kit.fontawesome.com/7b78a08149.js" crossorigin="anonymous"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
