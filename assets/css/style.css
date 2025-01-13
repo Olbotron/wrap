@@ -1,0 +1,108 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Section: header */
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header .nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header .nav ul li{
+    margin-left: 20px;
+}
+
+header .nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section: hero */
+
+.hero{
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero a{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section: about */
+
+.about{
+    padding: 50px 0;
+}
+
+.about h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
