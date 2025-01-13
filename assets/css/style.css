@@ -56,7 +56,7 @@ header .nav ul li a{
 .hero{
     background-image: url('../images/hero.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     height: 100vh;
     display: flex;
     justify-content: center;
