@@ -14,36 +14,44 @@ body{
 
 h1, h2, h3 {
     font-family: "Ubuntu", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     color: #252525;
 }
 
 /* Header */
 header {
-    background-color: rgba(166, 77, 121, 0.2);
-    color: #ffffff;
-    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer {
-    background-color: #A64D79;
-    color: #ffffff;
-    padding: 1rem 1rem;
-    /* position: fixed; */
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header h1{
+    padding-left: 25px;
 }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: yellow;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    background-color: rgb(166, 77, 121);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex; /* Footer height */
+    justify-content: center;
+    align-items: center;            
+  }
 
 header h1
 {
@@ -52,10 +60,10 @@ header h1
     display: inline-block;
 }
 
-navbar{
-    background-color: #252525;
+.navbar{
+    background-color: rgb(166, 77, 121);
     color: #efefef;
-    
+    width: 100%;
 }
 
 ul#full-words{
@@ -83,17 +91,19 @@ header a{
     background-image: url("../images/hero-1.webp");
     background-size: cover;
     background-position: center;
-    top: 340px;
-    height: 60vh;
-    display: flex;
+    top: 80px;
+    height: 70vh;
+    position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #ffffff;
 }
 
-#cover-text h2, #cover-text h3{
-    display: block;
+#cover-text {
+    position: absolute;
+    left: 45px; 
+    top: 45px;
     background-color: rgba(0, 0, 0, 0.5);
     color: aliceblue;
     padding: 1rem;
@@ -107,7 +117,7 @@ header a{
 }
 
 #main{
-    margin-top: 20px;
+    margin-top: 300px;
     max-width: 900px;
     height: 50vh;
     margin:auto;
