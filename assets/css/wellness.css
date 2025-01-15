@@ -52,24 +52,27 @@ header h1
     display: inline-block;
 }
 
-nav.full-words{
+navbar{
+    background-color: #252525;
     color: #efefef;
-    font-size: 1.5rem;
+    
 }
 
-ul.full-words{
+ul#full-words{
     list-style-type: none;
     display: flex;
 }
 
-ul.full-words li{
+ul#full-words li{
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 2rem;
 }
 
+/*
 .dropdown {
     display: none;
-}
+}*/
 
 header a{
     text-decoration: none;
@@ -101,7 +104,6 @@ header a{
 /* Main Content */
 .main-heading{
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #main{
@@ -111,7 +113,16 @@ header a{
     margin:auto;
 }
 
-p{padding-top: 10px;}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.help{
+    width: 550px;
+    border-radius: 5px;
+    align-items: center;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
