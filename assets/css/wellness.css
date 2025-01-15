@@ -9,6 +9,7 @@
 
 body{
     font-family: "Rubik", sans-serif;
+    font-weight: 200;
     height: 100vh;
 }
 
@@ -35,6 +36,9 @@ header h1{
     position: relative;
     min-height: 100vh;
     background-color: yellow;
+    margin-top: 47px;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 .navbar{
