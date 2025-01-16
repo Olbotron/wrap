@@ -7,116 +7,96 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
 <script src="https://kit.fontawesome.com/369330feb7.js" crossorigin="anonymous"></script>
-<nlink rel="stylesheet" href="assets/css/fuzzy.css" />
-<link rel="stylesheet" href="assets/css/bootstrap.css" />
-<link rel="stylesheet" href="assets/css/style.css" />
-<link rel="stylesheet" href="assets/css/materialize.min.css" />
+<link rel="stylesheet" href="assets/css/wellness.css" />
 </head>
 
-<body class="grey lighten-3">
+<body>
+<header>
+    <a id="logo" href="index.html">
+        <h1 class="fullhead-text"><i class="fa-regular fa-head-side-heart"></i> Wellness Recovery Action Plan</h1>
+        <h1 class="abbr-text"><i class="fa-regular fa-head-side-heart"></i> Mental Health W.R.A.P.</h1>
+    </a>
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <nav>
+        <ul id="menu">
+            <li><a href="home.html"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
+            <li><a href="join.html"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join the chatroom</a></li>
+        </ul>
+    </nav>
+</header>
 
-<!-- Header -->
-<header class="main-header">
-    
-<!-- RESPONSIVE WITH SIDE MENU -->
-<nav class="pink lighten-4">
-    <div class="container">
-      <div class="nav-wrapper">
-        <h1><i class="fa-regular fa-head-side-heart"></i> Mental Health Wellbeing</h1>
-
-        <a class="button-collapse" data-activates="mobile-nav" href="#">
-          <i class="material-icons" style="color: #c0c;">menu</i>
-        </a>
-        
-        <ul class="right hide-on-med-and-down">
-          <!-- DROPDOWN TRIGGER -->
-          <li><a href="home.html"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
-          <li><a href="#" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
-          <li><a href="join.html"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join the chatroom</a></li>
-        </ul>        
+<!-- Showcase -->
+<!-- Masthead-->
+<section id="hero">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading text-uppercase mb-0">Wellness Recovery Action Plan</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
         </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0">
+            For people living with ADHD or Bipolar Affective Disorder
+        </p>
     </div>
-  </nav>
+</section>
 
-  <!-- DROPDOWN MENU -->
-  <ul id="my-dropdown" class="dropdown-content">
-    <li><a href="home.html"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
-    <li><a href="#" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
-    <li><a href="join.html"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join the chatroom</a></li>
-  </ul>
+  <!-- Main -->
+  <main id="content-wrap">
+    <section id="main">
+        <div id="offset-hero">
+                <div>
+                    <h2 class="main-heading">Wellness Recovery Action Plan</h2>
+                    The Wellness Recovery Action Plan (WRAP) is a personalized plan that helps individuals maintain their mental health and wellness. 
+                    
+                    <h3>Here are the main points of a WRAP:</h3>
 
-    <!-- Showcase -->
-    <!-- Masthead-->
-    <section class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Wellness Return Action Plan</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <strong>Wellness Toolbox:</strong> A list of skills and strategies to maintain wellness and get back on track if needed. These tools can include activities like exercise, creative endeavors, and relaxation techniques.<br>
+                    <br>
+                    <strong>Daily Maintenance Plan:</strong> A daily structure incorporating wellness tools. It describes how you look and feel when you're well, daily activities to maintain wellness, and activities to support overall wellbeing.<br>
+                    <br>
+                    <strong>Triggers and Action Plan:</strong> Identifies external events that might cause distress and outlines appropriate responses.<br>
+                    <br>
+                    <strong>Early Warning Signs and Action Plan:</strong> Recognizes subtle signs that things might be going off track and provides a plan to address them before they become major issues.<br>
+                    <br>
+                    <strong>Crisis Plan:</strong> Establishes a plan for when things are breaking down, detailing who to contact, information to provide, and steps supporters can take to help you through a crisis.<br>
+                    <br>
+                    <strong>Post-Crisis Plan:</strong> A guide for recovery after a crisis, reflecting on what was learned and how to move forward.<br>
+                    <br>
+                    Developing a WRAP involves identifying personal resources, building a strong support system, and committing to an ongoing process of self-awareness and improvement.
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">
-                    For people living with ADHD or Bipolar Affective Disorder
-                </p>
-            </div>
-      </section>
-  </header>
-
-  <!-- MAIN CONTENT HERE -->
-  <h1>Hello, World!</h1>
-  <h2>How did it go?</h2>
-  <!-- close main container div-->
-
-</div>
-
-<!-- Footer-->
-<footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About the site</h4>
-                        <p class="lead mb-0">
-                            This site has been coded by Ol Hughes although it uses Bootstrap and materialize librarys.
-                        </p>
-                    </div>
+                <div class="set-middle">
+                    <img src="assets/images/hand-lightbulb.webp" class="figure" alt="helping hands">
                 </div>
-            </div>
-            <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Ol Hughes 2025</small></div>
+                <div>
+                    Meanwhile, the NHS provides comprehensive information on treatment options, coping strategies, and where to seek urgent help. 
+                    Additionally, websites like Bipolar UK offer forums and support groups where you can connect with others who understand 
+                    what you're going through.
+                </div>
         </div>
-        </footer>
-        
-        
+    </section>
+  </main>
+  <!-- close main container -->
 
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script>
-$(document).ready(function () {
-  // Init Dropdown
-  $('.dropdown-button').dropdown({
-    constrainWidth: false,
-    hover: true,
-    belowOrigin: true,
-    alignment: 'left'
-  });
+<footer id="footer" style="background-color: black;">
+    <div class="row">
+        <p class="set-middle">
+           Copyright &copy; Oliver Hughes 2025
+        </p>
+    </div>
+</footer> 
+<!-- / Footer-->
 
-  // Init hamburger menu
-  $('.button-collapse').sideNav();
-});
-</script>
+
 </body>
 </html>
