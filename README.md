@@ -15,5 +15,9 @@
 
 5. I chose a colour scheme based on the wireframe software and amended it to suit my needs.
 
+6. After too long spent on trying to create fixed headers and footers I stripped the site back to its bare boilerplate 
+   code without any styling so that I could effectively start from scratch.
 
+7. I copied in some code from a site I had created on another course to amend to suit the basic frame of each page in
+   order that I could add in the specifics later.
    

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mental Health Wellbeing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="height=device-height, initial-scale=1.0"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+<script src="https://kit.fontawesome.com/369330feb7.js" crossorigin="anonymous"></script>
+<nlink rel="stylesheet" href="assets/css/fuzzy.css" />
+<link rel="stylesheet" href="assets/css/bootstrap.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/materialize.min.css" />
+</head>
+
+<body class="grey lighten-3">
+
+<!-- Header -->
+<header class="main-header">
+    
+<!-- RESPONSIVE WITH SIDE MENU -->
+<nav class="pink lighten-4">
+    <div class="container">
+      <div class="nav-wrapper">
+        <h1><i class="fa-regular fa-head-side-heart"></i> Mental Health Wellbeing</h1>
+
+        <a class="button-collapse" data-activates="mobile-nav" href="#">
+          <i class="material-icons" style="color: #c0c;">menu</i>
+        </a>
+        
+        <ul class="right hide-on-med-and-down">
+          <!-- DROPDOWN TRIGGER -->
+          <li><a href="home.html"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
+          <li><a href="join.html"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join the chatroom</a></li>
+        </ul>        
+        </div>
+    </div>
+  </nav>
+
+  <!-- DROPDOWN MENU -->
+  <ul id="my-dropdown" class="dropdown-content">
+    <li><a href="home.html"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
+    <li><a href="#" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
+    <li><a href="join.html"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join the chatroom</a></li>
+  </ul>
+
+    <!-- Showcase -->
+    <!-- Masthead-->
+    <section class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Wellness Return Action Plan</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">
+                    For people living with ADHD or Bipolar Affective Disorder
+                </p>
+            </div>
+      </section>
+  </header>
+
+  <!-- MAIN CONTENT HERE -->
+  <h1>Hello, World!</h1>
+  <h2>How did it go?</h2>
+  <!-- close main container div-->
+
+</div>
+
+<!-- Footer-->
+<footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About the site</h4>
+                        <p class="lead mb-0">
+                            This site has been coded by Ol Hughes although it uses Bootstrap and materialize librarys.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Ol Hughes 2025</small></div>
+        </div>
+        </footer>
+        
+        
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+$(document).ready(function () {
+  // Init Dropdown
+  $('.dropdown-button').dropdown({
+    constrainWidth: false,
+    hover: true,
+    belowOrigin: true,
+    alignment: 'left'
+  });
+
+  // Init hamburger menu
+  $('.button-collapse').sideNav();
+});
+</script>
+</body>
+</html>
