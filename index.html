@@ -85,14 +85,14 @@
 
     <hr>
 
-    <section id="living-with" class="main-text">
+    <section class="main-text">
         <div>
-            <h2><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></h2>
-            Remember, you’re not alone, and there are resources out there to help! 
+            <h2 id="living-with"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></h2>
+            Remember, you're not alone, and there are resources out there to help! 
         </div>
         
         <div class="set-middle">
-            <img src="assets/images/hero-3.webp" class="figure" alt="helping hands">
+            <img src="assets/images/chat.webp" class="figure" alt="chat with a friend">
         </div>
         
         <div>
@@ -118,28 +118,32 @@
 
     <hr>
 
-    <section id="sign-up" class="main-text">
-        <div id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+    <section class="main-text">
+        <form id="signup-form-bg" action="https://formdump.codeinstitute.net" method="POST">
             <div class="set-middle">
-                <div>
+                
+                <div id="signup-form-body">
                     <div>
-                        <h3><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join us for a chat</h3>
-                    </div>
-                    <div>
-                        <label for="email">Email</label><br>
-                        <input name="email" id="email" class="text-input" required><br>
+                        <div>
+                            <span id="sign-up"></span>
+                            <h3><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join us for a chat</h3>
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br>
+                            <input name="email" id="email" class="text-input" required><br>
 
-                        <label for="username">Username</label><br>
-                        <input name="username" id="username" class="text-input" required>
-                    </div>
+                            <label for="username">Username</label><br>
+                            <input name="username" id="username" class="text-input" required>
+                        </div>
 
-                    <div class="terms">
-                        <a href="#">Terms and Conditions</a> 
-                        <input type="checkbox" name="chk-terms" id="chk-terms" required>
-                    </div>
+                        <div class="terms">
+                            <a href="#">Terms and Conditions</a> 
+                            <input type="checkbox" name="chk-terms" id="chk-terms" required>
+                        </div>
 
-                    <div class="set-middle">
-                        <input type="submit" class="join-button" value="Have a chat">
+                        <div class="set-middle">
+                            <input type="submit" class="join-button" value="Have a chat">
+                        </div>
                     </div>
                 </div>
             </div>  
