@@ -15,12 +15,19 @@ body{
 
 h1, h2, h3 {
     font-family: "Ubuntu", sans-serif;
+}
+
+h1{
     color: #252525;
+}
+
+h2, h3{
+    color: rgb(166, 77, 121);
 }
 
 /* Header */
 header {
-    background-color: rgba(166, 77, 121, 0.3);
+    background-color: rgba(166, 77, 121);
     color: #efefef;
     padding: 1rem;
     position: fixed;
@@ -60,10 +67,8 @@ nav ul#menu {
 }
 
 .active{
-    border-bottom: solid 1px #ff0000;
-    width: 100vw;
+    border-bottom: solid 2px rgb(53, 34, 53);
     background-color: #ffffff;
-
 }
 
 /* Navbar styles with dropdown toggle */
@@ -91,13 +96,6 @@ nav{
 	display: block;
 }
 
-/*
-.navbar{
-    background-color: rgba(166, 77, 121);
-    color: #efefef;
-    width: 100%;
-}*/
-
 .wrap{
     display: flex; flex-direction: column;
 }
@@ -117,11 +115,12 @@ nav{
     padding-bottom: 2.5rem;
 }
 
-#footer {
+footer {
     background-color: rgb(53, 34, 53);
     color: rgb(253, 253, 253);
     width: 100%;
-    height: 2.5rem;      
+    height: 2.5rem;
+    padding-bottom: 32px;      
 }
 
 header h1
@@ -160,10 +159,17 @@ header a{
     color: #ffffff;
 }
 
-.hero-heading{
+.hero-container{
+    text-align: center;
     position: absolute;
-    top: 30px;
-    margin: auto auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.fa-star{
+    padding: 10px;
 }
 
 #offset-hero{
@@ -186,11 +192,10 @@ header a{
     margin-top: 20px;
 }
 
-#main{
+.main-text{
     margin-top: 300px;
     max-width: 900px;
-    xheight: 50vh;
-    margin:auto;
+    margin: auto;
     padding: 1rem;
 }
 
@@ -199,21 +204,42 @@ p{
     padding-bottom: 10px;
 }
 
+ul.link-tree{
+    padding: 20px;
+}
+
+.ext-link, .ext-visited{
+    color: #00f;
+    text-decoration: underline;
+}
+
+.ext-link:hover, .ext-link:active{
+    color: #f00;
+    text-decoration: none;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #hero{
         background-image: url("../images/hero-1-sm.webp");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 30vh;
         background-position: center;
-        top: 60px;
+        stop: 60px;
         position: relative;
         justify-content: center;
         align-items: center;
         text-align: center;
         color: #ffffff;
     }
+
+    #hero h1, h2{
+        top: 5px;
+        color: white;
+        font-size: 1rem;
+    }
+
     .offset-hero{
         margin-top: 20px;
     }
