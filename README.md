@@ -24,4 +24,8 @@
 8. Took many attempts at the code before going back to scratch and ditching most of the style and re-starting.
 
 9. Finally started to make the code cope reasonably well with responsive layouts. Still working on mobile layout.
+
+10. Tested the code against the w3 html and accessibility checkers
+
+11. Wrote a simple javascript function to close the dropdown menu bar when a link has been clicked on it.
    

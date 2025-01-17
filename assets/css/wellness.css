@@ -88,7 +88,7 @@ nav{
 
 #nav-toggle{
 	display: none;
-}}
+}
 
 .nav-toggle-label{
 	font-size: 2rem;
@@ -342,10 +342,11 @@ ul.link-tree li{
 /*======================================================================================================================================================*/
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){
-    #photos{
-		column-count: 2;
-        column-gap: 0;
-	}
+    /* nav{
+        display: block;
+        background-color: rgb(253, 253, 253);
+        color:rgb(53, 34, 53)
+    } */
 }
 
 /* Media query: tablets and larger (768px and up) */
