@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <script src="https://kit.fontawesome.com/369330feb7.js" crossorigin="anonymous"></script>
+<script src="assets/js/wrap.js"></script>
 <link rel="stylesheet" href="assets/css/wellness.css">
 </head>
 
@@ -25,9 +26,9 @@
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
     <nav>
         <ul id="menu">
-            <li><a href="#home"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
-            <li><a href="#living-with" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
-            <li><a href="#sign-up"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join for a chat</a></li>
+            <li><a href="#home" onclick="closeMe();"><i class="fa-sharp-duotone fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#living-with" onclick="closeMe();" class="current"><i class="fa-solid fa-cloud-sun-rain"></i> Living With...</a></li>
+            <li><a href="#sign-up" onclick="closeMe();"><i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i> Join for a chat</a></li>
         </ul>
     </nav>
 </header>
