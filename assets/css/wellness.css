@@ -61,11 +61,14 @@ nav ul#menu {
     list-style-type: none;
     font-size: 110%;
     letter-spacing: 2px;
+    background-color: rgb(166, 77, 121);
+    color: #efefef;
 }
 
 #menu > li{
     padding: 0.5em;
-    color: rgb(166, 77, 121);
+    background-color: rgb(166, 77, 121);
+    color: #efefef;
     font-size: 1.25rem;
 }
 
@@ -79,8 +82,8 @@ nav{
     position: absolute;
     padding: 0 1rem;
     right: 0;
-    background-color: #ffffff;
-    color: rgb(166, 77, 121);
+    background-color: rgb(166, 77, 121);
+    color:  #ffffff;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -339,6 +342,14 @@ ul.link-tree li{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    h1, h2{
+        font-size: 100%;    
+    }
+
+    .hero-container h1{
+        padding-top: 60px;
+    }
+
     /* .hero-container h1, h2{
         top: 50%;
         color: white;
@@ -370,12 +381,6 @@ ul.link-tree li{
     .offset-hero{
         margin-top: 70px;
     }
-
-    /* .hero-heading{
-        margin-top: 70px;
-        color: red;
-        font-size: 120%;
-    } */
 
     /* Show WRAP */
     .fullhead-text{
