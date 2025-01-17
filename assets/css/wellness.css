@@ -56,13 +56,10 @@ header a{
     display: none;
 }
 /* / Show Full Text*/
-
 nav ul#menu {
     list-style-type: none;
     font-size: 110%;
     letter-spacing: 2px;
-    background-color: rgb(166, 77, 121);
-    color: #efefef;
 }
 
 #menu > li{
@@ -82,7 +79,7 @@ nav{
     position: absolute;
     padding: 0 1rem;
     right: 0;
-    background-color: rgb(166, 77, 121);
+    background-color: red; /*rgb(166, 77, 121);*/
     color:  #ffffff;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -91,7 +88,7 @@ nav{
 
 #nav-toggle{
 	display: none;
-}
+}}
 
 .nav-toggle-label{
 	font-size: 2rem;
@@ -117,8 +114,12 @@ nav{
     border-radius: 20px;
 }
 
-.terms{
+.terms-div{
     padding: 20px;
+}
+
+.terms-link{
+    padding-bottom: 12px;
 }
 
 label{
@@ -247,7 +248,7 @@ header a{
 }
 
 #signup-form-body{
-    background-color: rgba(240, 235, 235, 0.3);
+    background-color: rgba(240, 235, 235, 0.5);
     color: #ffffff;
     position: absolute;
     padding: 30px;
@@ -319,14 +320,110 @@ ul.link-tree li{
     padding-bottom: 5px;
 }
 
-.ext-link, .ext-visited{
+.ext-link, .ext-visited, .terms-link, .terms-visited{
     color: #00f;
     text-decoration: underline;
 }
 
-.ext-link:hover, .ext-link:active{
+.ext-link:hover, .ext-link:active, .terms-link:hover, .terms-link:active{
     color: #f00;
     text-decoration: none;
+}
+
+
+/*======================================================================================================================================================*/
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px){
+    #photos{
+		column-count: 2;
+        column-gap: 0;
+	}
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px){
+	nav {
+		display: block;
+		position: relative;
+		box-shadow: none;
+		width: fit-content;
+		padding-right: 1rem;
+	}
+
+	#menu{
+		display: flex;
+	}
+
+	#menu > li{
+		padding-left: 1rem;
+	}
+
+	.nav-toggle-label{
+		display: none;
+	}
+    
+	#logo{
+		font-size: 200%;
+		line-height: 75px;
+		margin: 0 0.5rem;
+	}
+
+	/* Main content */
+	main{
+		/* Push main content down to accommodate larger header */
+		margin-top: 79px;
+	}
+
+    #cover-text{
+        width: 300px;
+        right: 50px;
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px){
+    #menu a:hover{
+		border-bottom: solid 1px #3a3a3a;
+	}
+
+    /* Gallery */
+    #photos{
+        column-count: 4;
+    }   
+}    
+
+/* Media query: Extra large display (1200 and up) */
+@media screen and (min-width: 1200px){
+    #benefits{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #benefits > div{
+        flex: 1;
+    }
+    
+    #benefits-image{
+        order: 0;
+    }
+    
+    #benefits-mental{
+        order: 1;
+    }
+
+    #benefits-physical > div{
+        align-self: flex-start;
+    }
+    
+    #benefits-mental > div{
+        text-align: end;
+        align-self: flex-end;
+    }
+    
+    /* Gallery */
+    #photos{
+        column-count: 4;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -21,5 +21,7 @@
 7. I copied in some code from a site I had created on another course to amend to suit the basic frame of each page in
    order that I could add in the specifics later.
 
-8. Took many attempts at the code before going back to scratch and ditching most of the style and re-starting
+8. Took many attempts at the code before going back to scratch and ditching most of the style and re-starting.
+
+9. Finally started to make the code cope reasonably well with responsive layouts. Still working on mobile layout.
    
