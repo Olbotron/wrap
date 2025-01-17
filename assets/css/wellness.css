@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1{
-    color: #252525;
+    color: #efefef;
 }
 
 h2, h3{
@@ -114,6 +114,43 @@ nav{
     border-radius: 20px;
 }
 
+.terms{
+    padding: 20px;
+}
+
+label{
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow:   0px -1.5px 0 #212121,  
+                   0px -1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                  -1.5px  0px 0 #212121,  
+                  1.5px  0px 0 #212121,
+                  -1.5px  0px 0 #212121,
+                  1.5px  0px 0 #212121,
+                  -1.5px -1.5px 0 #212121,  
+                  1.5px -1.5px 0 #212121,
+                  -1.5px  1.5px 0 #212121,
+                  1.5px  1.5px 0 #212121,
+                  -3px  4.5px 0 #212121,
+                   0px  4.5px 0 #212121,
+                   0.75px  2.25px 0 #212121,
+                   0 2.5px 0.5px rgba(0,0,0,.1),
+                   0 0 1.5px rgba(0,0,0,.1),
+                   0 1.5px 0.75px rgba(0,0,0,.3),
+                   0 3px 1.5px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.25),
+                   0 3px 3px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.15);
+}
+
+.text-input{
+    padding: 5px;
+    margin: 12px;
+    width: 100%;
+}
+
 #chk-terms{
     size: 30px;
 }
@@ -122,6 +159,18 @@ nav{
     width: 350px;
     border-radius: 30px;
     padding: 20px;
+}
+
+.anchor{
+    display: block;
+    height: 180px; /*same height as header*/
+    margin-top: -180px; /*same height as header*/
+    visibility: hidden;
+  }
+
+/* To scroll anchor tags to their correct height */
+html {
+    scroll-padding-top: 4rem;
 }
 
 /* Below content-wrap is for the footer */
@@ -160,7 +209,7 @@ header a{
     color: inherit;
 }
 
-#hero{
+.hero{
     background-image: url("../images/hero-1.webp");
     background-size: cover;
     background-position: center;
@@ -177,7 +226,6 @@ header a{
     background-image: url("../images/hero-2.webp");
     background-size: cover;
     background-position: center;
-    /* bottom: 2.5rem; */
     height: 70vh;
     position: relative;
     justify-content: center;
@@ -190,17 +238,12 @@ header a{
     background-image: url("../images/form-bg.webp");
     background-size: cover;
     background-position: center;
-    /* bottom: 2.5rem; */
     height: 70vh;
     position: relative;
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; 
-    color: #ffffff;*/
 }
 
 #signup-form-body{
-    background-color: rgb(37, 37, 37, 0.5);
+    background-color: rgba(240, 235, 235, 0.3);
     color: #ffffff;
     position: absolute;
     padding: 30px;
@@ -214,6 +257,28 @@ header a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-shadow:   0px -1.5px 0 #212121,  
+                   0px -1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                  -1.5px  0px 0 #212121,  
+                  1.5px  0px 0 #212121,
+                  -1.5px  0px 0 #212121,
+                  1.5px  0px 0 #212121,
+                  -1.5px -1.5px 0 #212121,  
+                  1.5px -1.5px 0 #212121,
+                  -1.5px  1.5px 0 #212121,
+                  1.5px  1.5px 0 #212121,
+                  -3px  4.5px 0 #212121,
+                   0px  4.5px 0 #212121,
+                   0.75px  2.25px 0 #212121,
+                   0 2.5px 0.5px rgba(0,0,0,.1),
+                   0 0 1.5px rgba(0,0,0,.1),
+                   0 1.5px 0.75px rgba(0,0,0,.3),
+                   0 3px 1.5px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.25),
+                   0 3px 3px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.15);
 }
 
 .fa-star{
@@ -273,29 +338,44 @@ ul.link-tree li{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* #hero{
-        background-image: url("../images/hero-1-sm.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 30vh;
-        background-position: center;
-        stop: 60px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #ffffff;
-    } */
 
-    .hero-container h1, h2{
+    /* .hero-container h1, h2{
         top: 50%;
         color: white;
-        font-size: 1rem;
-    }
+        font-size: 120%;
+        text-shadow:   0px -1.5px 0 #212121,  
+                   0px -1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                   0px  1.5px 0 #212121,
+                  -1.5px  0px 0 #212121,  
+                  1.5px  0px 0 #212121,
+                  -1.5px  0px 0 #212121,
+                  1.5px  0px 0 #212121,
+                  -1.5px -1.5px 0 #212121,  
+                  1.5px -1.5px 0 #212121,
+                  -1.5px  1.5px 0 #212121,
+                  1.5px  1.5px 0 #212121,
+                  -3px  4.5px 0 #212121,
+                   0px  4.5px 0 #212121,
+                   0.75px  2.25px 0 #212121,
+                   0 2.5px 0.5px rgba(0,0,0,.1),
+                   0 0 1.5px rgba(0,0,0,.1),
+                   0 1.5px 0.75px rgba(0,0,0,.3),
+                   0 3px 1.5px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.25),
+                   0 3px 3px rgba(0,0,0,.2),
+                   0 4.5px 4.5px rgba(0,0,0,.15);
+    } */
 
     .offset-hero{
-        margin-top: 20px;
+        margin-top: 70px;
     }
+
+    /* .hero-heading{
+        margin-top: 70px;
+        color: red;
+        font-size: 120%;
+    } */
 
     /* Show WRAP */
     .fullhead-text{
