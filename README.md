@@ -28,4 +28,5 @@
 10. Tested the code against the w3 html and accessibility checkers
 
 11. Wrote a simple javascript function to close the dropdown menu bar when a link has been clicked on it.
-   
+
+## I created the wireframes in Balsamiq and have attached the results as a pdf
