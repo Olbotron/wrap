@@ -252,7 +252,6 @@ header a{
     color: #ffffff;
     position: absolute;
     padding: 30px;
-    /* top: 20%; */
 }
 
 .join-button{
@@ -340,160 +339,6 @@ ul.link-tree li{
 
 
 /*======================================================================================================================================================*/
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px){
-    /* nav{
-        display: block;
-        background-color: rgb(253, 253, 253);
-        color:rgb(53, 34, 53)
-    } */
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px){
-	nav {
-		display: block;
-		position: relative;
-		box-shadow: none;
-		width: fit-content;
-		padding-right: 1rem;
-	}
-
-	#menu{
-		display: flex;
-	}
-
-	#menu > li{
-		padding-left: 1rem;
-	}
-
-	.nav-toggle-label{
-		display: none;
-	}
-    
-	#logo{
-		font-size: 200%;
-		line-height: 75px;
-		margin: 0 0.5rem;
-	}
-
-	/* Main content */
-	main{
-		/* Push main content down to accommodate larger header */
-		margin-top: 79px;
-	}
-
-    #cover-text{
-        width: 300px;
-        right: 50px;
-    }
-}
-
-/* Media query: laptops and desktops (992px and up) */
-@media screen and (min-width: 992px){
-    #menu a:hover{
-		border-bottom: solid 1px #efefef;
-	}
-
-    header h1, span.fullhead-text i{
-        color:#ffffff;
-        font-size: 1.5rem;
-        display: inline-block;
-    } 
-}    
-
-/* Media query: Extra large display (1200 and up) */
-@media screen and (min-width: 1200px){
-    #benefits{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    #benefits > div{
-        flex: 1;
-    }
-    
-    #benefits-image{
-        order: 0;
-    }
-    
-    #benefits-mental{
-        order: 1;
-    }
-
-    #benefits-physical > div{
-        align-self: flex-start;
-    }
-    
-    #benefits-mental > div{
-        text-align: end;
-        align-self: flex-end;
-    }
-    
-    /* Gallery */
-    #photos{
-        column-count: 4;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-    h1, h2{
-        font-size: 100%;    
-    }
-
-    .hero-container h1{
-        padding-top: 60px;
-    }
-
-    .hero-heading{
-        font-size: 80%;
-    }
-
-    .hero-subheading{
-        font-size: 70%;
-    }
-
-    .offset-hero{
-        margin-top: 70px;
-    }
-
-    /* Show WRAP */
-    .fullhead-text{
-        display: none;
-    }
-
-    .abbr-text{
-        display: block;
-    }
-    /* / Show WRAP*/
-
-    header{
-        font-size: 0.5rem;
-    }
-
-    i{
-        font-size: 1.2rem;
-    }
-
-    nav#full-words{
-        display: none;
-    }
-
-    nav ul{
-        width: 800px;
-    }
-
-    nav ul#menu{
-        font-size: 120px;
-        color: #efefef;
-    }
-
-    #menu li{
-        font-size: 0.8rem;
-    }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -516,12 +361,7 @@ ul.link-tree li{
     }
 
     #full-words{
-        display: block;
-    }
-
-    nav#dropdown {
-        position: relative;
-        display: inline-block;
+        display: none;
     }
       
     .dropdown a.close {
@@ -531,6 +371,7 @@ ul.link-tree li{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    /* Show WRAP */
     .fullhead-text{
         display: none;
     }
@@ -538,6 +379,7 @@ ul.link-tree li{
     .abbr-text{
         display: block;
     }
+    /* / Show WRAP*/
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -550,6 +392,17 @@ ul.link-tree li{
     .abbr-text{
         display: none;
     }
+
+    #menu {
+        position: relative;
+        display: block;
+        background-color: yellow;
+        color: black;
+    }
+
+    #menu a:hover{
+		border-bottom: solid 1px #efefef;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -562,5 +415,16 @@ ul.link-tree li{
     .abbr-text{
         display: none;
     }
+
+    #menu {
+        position: relative;
+        display: block;
+        background-color: yellow;
+        color: black;
+    }
+
+    #menu a:hover{
+		border-bottom: solid 1px #efefef;
+	}
     /* / Show WRAP*/
 }
